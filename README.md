@@ -52,9 +52,10 @@ These plugins are installed locally but their files are not tracked in this repo
 
 ## Setup on a New Machine
 
-1. Clone this repo into your `~/.claude` directory:
+1. Clone this repo and copy the `.claude/` folder into your home directory:
    ```bash
-   git clone https://github.com/harshdazz/ClaudeCode.git ~/.claude
+   git clone https://github.com/harshdazz/ClaudeCode.git
+   cp -r ClaudeCode/.claude/. ~/.claude/
    ```
 
 2. Clone the official plugins marketplace:
@@ -68,6 +69,8 @@ These plugins are installed locally but their files are not tracked in this repo
    /plugin install plugin-dev@claude-plugins-official
    /plugin install commit-commands@claude-plugins-official
    /plugin install feature-dev@claude-plugins-official
+   /plugin install claude-md-management@claude-plugins-official
+   /plugin install hookify@claude-plugins-official
    ```
 
 ## What Is Not Tracked
@@ -82,4 +85,3 @@ The `.gitignore` intentionally excludes:
 
 - [Claude Code](https://claude.ai/code) installed
 - Git
-- 
