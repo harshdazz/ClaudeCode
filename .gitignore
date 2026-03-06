@@ -1,0 +1,19 @@
+# Sensitive
+.claude/.credentials.json
+.claude/mcp-needs-auth-cache.json
+
+# Session/runtime data
+.claude/todos/
+.claude/debug/
+.claude/projects/
+.claude/plans/
+.claude/history.jsonl
+.claude/shell-snapshots/
+.claude/ide/
+.claude/backups/
+.claude/cache/
+.claude/stats.json
+.claude/*.log
+
+# Embedded git repo (add as submodule separately if needed)
+.claude/plugins/marketplaces/claude-plugins-official/
