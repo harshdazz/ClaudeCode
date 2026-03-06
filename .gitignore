@@ -9,9 +9,12 @@
 .claude/plans/
 .claude/history.jsonl
 .claude/shell-snapshots/
+.claude/file-history/
 .claude/ide/
 .claude/backups/
 .claude/cache/
+.claude/downloads/
+.claude/agents/
 .claude/stats.json
 .claude/*.log
 

@@ -68,6 +68,8 @@ These plugins are installed locally but their files are not tracked in this repo
    /plugin install plugin-dev@claude-plugins-official
    /plugin install commit-commands@claude-plugins-official
    /plugin install feature-dev@claude-plugins-official
+   /plugin install claude-md-management@claude-plugins-official
+   /plugin install hookify@claude-plugins-official
    ```
 
 ## What Is Not Tracked
