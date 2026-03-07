@@ -18,5 +18,11 @@
 .claude/stats.json
 .claude/*.log
 
+# Auto-managed by Claude Code (fetched from remote, not user-editable)
+.claude/plugins/blocklist.json
+
+# Literal dir created when CLAUDE_PLUGIN_ROOT env var is unresolved
+.claude/${CLAUDE_PLUGIN_ROOT}/
+
 # Embedded git repo (add as submodule separately if needed)
 .claude/plugins/marketplaces/claude-plugins-official/
